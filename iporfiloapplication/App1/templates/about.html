@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+ <style>
+ body{
+  background-image:url("static/images/bg1.jpg");
+     background-repeat: no-repeat;
+     background-size: 100%;
+}
+</style>
+</head>
+<body>
+<!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container">
+ <div class="container">
+     <div class="row" style="text-align: center;border-right:100px;">
+
+             <img  src="{% static 'images/img1.jpg' %}" class="img-rounded" style="height: 200px;width:150px;border-radius: 50%;">
+
+     </div>
+ </div>
+        <div class="section-title">
+          <h2  style="color:red" align="center">About Me</h2>
+          <h4 style="color: white" align="center">My name is praveen in Python Developer with 1+ years of experience developing web, batch, and business intelligence solutions using python, Django,</h4>
+          <h4 style="color: white" align="center">  and MS SQL. Skilled in architecting and executing customized, data-driven solutions, hosted both on-premise and on the cloud.</h4>
+           <h4 style="color: white" align="center"> Expertise in requirements analysis, design, development, testing, maintenance, enhancement, and production support of business applications..</h4>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4" data-aos="fade-right">
+
+          </div>
+          <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
+            <h3 style="color:red" align="center">UI/UX Designer &amp; Web Developer:</h3>
+            <h4 style="color: white" align="center">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+              magna aliqua.
+            </h4>
+
+
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Section -->
+</body>
+{% endblock %}
+</html>
